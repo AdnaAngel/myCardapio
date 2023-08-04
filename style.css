@@ -1,0 +1,180 @@
+
+@charset "UTF-8";
+
+body{
+background-color: #8FBC8F";
+
+}
+/* index*/
+.links{
+float: right;
+display: block;
+background-color: #8FBC8F;
+color:"#darkred";
+
+padding: 25px 25px;
+
+font-size: 15px;;
+
+}
+.imagem_topo{
+background-image:url= ("img/LOGOTIPO1.png");
+display:inline;
+padding: 10px;
+margin: 10px;
+text-align: center;
+}
+.MENU{
+font-size:  20px;
+font-family:arial;
+font-style: inherit;
+color:darkred;
+padding:10px;
+margin: 10px;
+text-align: left;
+}
+
+.itens_menu{
+
+display: flex;
+text-align: center;
+font-size: 17px;
+font-family: arial;
+font-style:inherit;
+margin: 40px;
+padding: auto;
+}
+.Sopas{
+float: left;
+display: flex;
+
+}
+.Purê_de_Frutas{
+float: left;
+
+}
+.Sucos_e_Vitaminas{
+gap:30px;
+float: right;
+}
+
+
+
+.subtitulo{
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial;
+}
+
+.Sobre{
+font-size:  15px;
+font-family: Arial;
+margin: 40px;
+text-align: left;
+
+
+}
+
+.Sobre_nós{
+font-size: 17px;
+font-family: Arial;
+margin:50px;
+display:block;
+line-height: 30px;
+text-align: left;
+
+}
+
+.Contato{
+font-size: 15px;
+font-family: Arial;
+padding: 20px;
+margin: 10px;
+display:inline-block;
+
+}
+
+.ifood{
+
+font-size: 15px;
+font-family: arial;
+padding: 20 px;
+margin:30px;
+}
+
+
+/*O bloco3 está no Suco e Vitaminas*/
+.bloco3{
+text-align:center ;
+font-size: 15px;
+font-family: Arial;
+margin: auto;
+} 
+.bloco3_1{
+text-align:center;
+font-size: 17px;
+font-family: Arial;
+padding: 10px;
+
+}
+/*O bloco2 está no Purê de frutas*/
+.bloco2{
+
+text-align:center;
+font-size:15px ;
+font-family: arial;
+margin: auto;
+}
+
+.bloco2_1{
+font-size: 17px;
+font-family: Arial;
+text-align: center;
+padding: 10px;
+}
+
+/* O bloco1 está no Sopas*/
+.bloco1{
+text-align: center;
+font-size: 15px;
+font-family: Arial;
+margin: auto;
+}
+.bloco1_2{
+text-align: center;
+font-size: 17px;
+font-family: Arial;
+padding: 10px;
+}
+/*Rodapé*/
+.Créditos
+{
+text-align: center;
+font-size: 15px;
+font-family: 'Times New Roman';
+}
+
+.Rodapé{
+    background-color:#c3d5f6;
+    line-height:40px ;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

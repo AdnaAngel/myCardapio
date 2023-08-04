@@ -1,0 +1,24 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+      <head>
+        <title>Purê de Frutas</title>
+        <meta charset="utf-8">
+      </head>
+      <body>
+	  <body bgcolor="#Fffff">
+	  <p align="center">
+	  <img src="img\pure2.jpg">
+		<center><h2>Purê de Frutas</h1><ul>
+		<font face="Arial" size="04" >Purê de Banana e Maça.................................200 ml por R$ 15,00
+		ingredientes: banana, maça e água.<br>
+		<br><font face="Arial" size="04" >Purê de Morango e Aveia..............................200 ml por R$ 20,00<br>
+		ingredientes: morango, aveia e água.<br>
+		<br><font face="Arial" size="04" >Purê de Banana e Mamão..............................200 ml por R$ 20,00<br>
+		ingredientes: banana, mamão e água.<br>
+		<br><font face="Arial" size="04" >Purê de Banana e Chia.................................200 ml por R$ 20,00<br>
+		ingredientes: banana, farinha de chia.<br>
+		<br><font face="Arial" size="04" >Purê de Maça................................................200 ml por R$ 20,00<br>
+		ingredientes:maça.<br>
+		<br><font face="Arial" size="04" >Purê de Abacate.............................................200 ml por R$ 20,00<br>
+		ingredientes: abacate.<br>
+		</br></li> </ul></center>
