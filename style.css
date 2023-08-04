@@ -2,28 +2,27 @@
 @charset "UTF-8";
 
 body{
-background-color: #8FBC8F";
-
+background-color:#8FBC8F";
 }
 /* index*/
 .links{
 float: right;
-display: block;
+display:inline-block;
 background-color: #8FBC8F;
-color:"#darkred";
+color:crimson;
 
-padding: 25px 25px;
-
-font-size: 15px;;
+font-size: 15px;
 
 }
-.imagem_topo{
-background-image:url= ("img/LOGOTIPO1.png");
-display:inline;
+.plano_fundo{
+display: flex;
 padding: 10px;
 margin: 10px;
-text-align: center;
+gap:10px;
+
+
 }
+
 .MENU{
 font-size:  20px;
 font-family:arial;
@@ -35,35 +34,21 @@ text-align: left;
 }
 
 .itens_menu{
-
 display: flex;
 text-align: center;
 font-size: 17px;
 font-family: arial;
 font-style:inherit;
-margin: 40px;
-padding: auto;
+margin: 30px;
+padding: 20px;
+gap:20px;
+align-items: center;
 }
-.Sopas{
-float: left;
-display: flex;
-
-}
-.Purê_de_Frutas{
-float: left;
-
-}
-.Sucos_e_Vitaminas{
-gap:30px;
-float: right;
-}
-
-
 
 .subtitulo{
-    text-align: center;
-    font-size: 15px;
-    font-family: Arial;
+text-align: center;
+font-size: 15px;
+font-family: Arial;
 }
 
 .Sobre{
@@ -101,7 +86,6 @@ font-family: arial;
 padding: 20 px;
 margin:30px;
 }
-
 
 /*O bloco3 está no Suco e Vitaminas*/
 .bloco3{
@@ -155,11 +139,11 @@ font-family: 'Times New Roman';
 }
 
 .Rodapé{
-    background-color:#c3d5f6;
-    line-height:40px ;
-    text-align: center;
-    font-size: 20px;
-    font-family: Arial;
+background-color:#c3d5f6;
+line-height:40px ;
+text-align: center;
+font-size: 20px;
+font-family: Arial;
 
 }
 
