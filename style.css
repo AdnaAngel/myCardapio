@@ -4,21 +4,46 @@
 body{
 background-color:#8FBC8F";
 }
+
+header{
+    height: 20%;
+    display:block;
+    text-align: center;
+    background-color:#337ccf;
+    margin:8px;
+}    
 /* index*/
 .links{
-float: right;
 display:block;
+float:right;
 background-color: #8FBC8F;
 color:crimson;
-
 font-size: 15px;
+margin:5px 5px;
+}
+
+#li{
+list-style-type: none;
+float:left;
+padding: 5px 5px;
+color:black;
+font-family: Arial;
+text-decoration: none;
 
 }
+
+
+li:hover{
+    background-color:#07b94b;
+    color:black;
+}
+
 .plano_fundo{
 display: flex;
 padding: 10px;
 margin: 10px;
 gap:10px;
+border-radius: 50px;
 
 
 }
@@ -28,21 +53,34 @@ font-size:  20px;
 font-family:arial;
 font-style: inherit;
 color:darkred;
-padding:10px;
-margin: 10px;
+padding-bottom: 10 px;
+padding-top: 10 px;
+margin-top: -50px;
+margin-right: 600px;
+margin-left: 60px;
 text-align: left;
+
 }
 
 .itens_menu{
-display: flex;
-text-align: center;
-font-size: 17px;
-font-family: arial;
-font-style:inherit;
-margin: 30px;
-padding: 20px;
-gap:20px;
-align-items: center;
+
+display:flex;
+gap: 50px;
+padding-right:10px;
+padding-left: 10px;
+margin-left: 50px;
+margin-right: 10px;
+position:relative;
+width:30%;
+
+font-family:'Times New Roman';
+text-align: left;
+
+text-align: justify;
+
+word-spacing: 20%;
+line-height: 20px;
+
 }
 
 .subtitulo{
@@ -54,28 +92,39 @@ font-family: Arial;
 .Sobre{
 font-size:  15px;
 font-family: Arial;
-margin: 40px;
+margin: 20px 60px;
 text-align: left;
+padding: 10px;
+position: relative;
+display:flex;
 
 
 }
 
 .Sobre_nós{
-font-size: 17px;
-font-family: Arial;
-margin:50px;
-display:block;
-line-height: 30px;
-text-align: left;
+font-family:'Times New Roman';
+text-align: right;
+text-align: justify;
+word-spacing: 20%;
+line-height: 20px;
+margin-left: 370px;
+margin-top: -220px;
+margin-right: 80px;
+
+}
+#sob{
+    margin-left: 60px; 
+    width: 300px; 
+    height: 200px;
 
 }
 
 .Contato{
 font-size: 15px;
 font-family: Arial;
-padding: 20px;
-margin: 10px;
-display:inline-block;
+padding: 10px;
+margin: 5px 60px ;
+display:block;
 
 }
 
@@ -83,8 +132,8 @@ display:inline-block;
 
 font-size: 15px;
 font-family: arial;
-padding: 20 px;
-margin:30px;
+padding: 10 px;
+margin:60px 0;
 }
 
 /*O bloco3 está no Suco e Vitaminas*/
@@ -147,15 +196,97 @@ font-family: Arial;
 
 }
 
+@media screen and (max-width:720px) {
+.subtitulo{
+    
+    text-align: center;
+    font-size: 10px;
+}
+.MENU{
+    font-size: 15px;
+    text-align: center;
+    margin-left: 330px;
+    margin-top: 5px;
+}
+.itens_menu{
+
+display:table-cell;
+text-align: center;
+position: relative;
+
+}
+#li{
+   display: none;
+}
+.Sobre{
+display: block;
+text-align: center;
+}
+.Sobre_nós{
+    display:block;
+   margin:0px 180px;
+}
+#sob{
+    display:block;
+    text-align: center;
+  margin: 0 200px;
+}
+.Contato{
+    text-align: center;
+}
+#maps{
+    width: 300px;
+    height: 250px;
+    margin-bottom: 2px;
+    padding: 5px;
+}
+.ifood{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.bloco1{
+    text-align: center;
+    display: block;
+    font-size:10px;
+    margin-left: 50px;
+  
+    
+
+}
+.bloco1_2{
+    text-align: center;
+    display: block;
+    font-size: 12px;
+}
+.bloco2{
+    text-align: center;
+    display: block;
+    font-size:10px;
+    margin-left: 50px;
 
 
+}
+.bloco2_1{
+    text-align: center;
+    display: block;
+    font-size: 12px;
 
+}
+.bloco3{
+    text-align: center;
+    display: block;
+    font-size:10px;
+    margin-left: 50px;
 
+}
+.bloco3_1{
+    text-align: center;
+    display: block;
+    font-size: 12px;
+}
 
-
-
-
-
+}
 
 
 
